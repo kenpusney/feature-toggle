@@ -1,0 +1,12 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	compile 'javax.servlet.jsp:jsp-api:2.2'
+	testCompile 'junit:junit:4.11'
+	testCompile 'org.mokito:mokito-core:1.9.5'
+}
